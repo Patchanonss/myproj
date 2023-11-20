@@ -9,16 +9,19 @@
 </head>
 <body>
     <div class="contain">
+        <div class="tempo">
+            <p class="popuptext1">You Successfully Signed in!</p>
+            <p class="popuptext2" onclick="closepopup()">Click here to return</p>
+        </div>
         <form onsubmit="return false;" id="signupform">
-            <label for="user">Username</label><br>
-            <input type="text" class="inp_text" name="user" id="user1"><br>
-            <label for="pass">Password</label><br>
-            <input type="text" style="margin-bottom: 10px;" class="inp_text" name="pass" id="pass1"><br>
+            <label for="tempuser1" style="color: rgba(255, 255, 255, 0.8);">Username</label><br>
+            <input type="text" class="inp_text" name="user" id="tempuser1"><br>
+            <label for="temppass1" style="color: rgba(255,255,255,0.8);">Password</label><br>
+            <input type="text" style="margin-bottom: 10px;" class="inp_text" name="pass" id="temppass1"><br>
             <div class="signup" id="signbutton" onclick="submitform()">Sign up</div>
             <div id="incorrectcase"></div>
         </form>
     </div>
-
 <div>
     <p id="showuser"></p>
     <p id="showpass"></p>
