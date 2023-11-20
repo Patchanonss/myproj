@@ -9,28 +9,49 @@ body {
 }
 
 .contain {
-    background-color: rgb(180, 200, 255);
-    height: 25em;
-    margin: 0 auto;
-    width: 60%;
-    border: 1.8px solid #501ac4;
+    background-color: #3c5077;
+    height: 100vh;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .signup {
     display: flex;
     justify-content: center;
-    /* border: 1px solid green; */
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgb(238, 212, 218);
+    outline: none;
+    font-weight: 500;
 }
 .signup:hover {
     background-color: rgb(237, 168, 184);
     cursor: pointer;
-}
 
+}
+.tempo {
+    visibility: hidden;
+    background-color: #ffffff;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
 #incorrectcase {
     color: red;
+}
+.popuptext1 {
+    margin: 50px 0px;
+}
+.popuptext2 {
+    background-color: pink;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 150px;
+}
+.popuptext2:hover {
+    background-color: rgb(246, 163, 177);
 }
